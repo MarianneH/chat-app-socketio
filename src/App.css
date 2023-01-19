@@ -1,0 +1,42 @@
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messages {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.author,
+.partner {
+  display: flex;
+  padding: 1rem;
+}
+
+.author {
+  color: blue;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  background-color: beige;
+}
+
+.partner {
+  color: red;
+  background-color: aliceblue;
+}
+.username {
+  font-weight: bold;
+}
+.author .username {
+  margin-left: 1rem;
+}
+.partner .username {
+  margin-right: 1rem;
+}
+.messages div:first-child {
+  background-color: gainsboro;
+}
